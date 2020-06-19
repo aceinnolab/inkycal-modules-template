@@ -1,4 +1,6 @@
 # Name of your module
+This is third-party module for the inkycal project
+
 Explain these things in a few sentences:
 * what this module does (why did you bother making this?)
 * what it requires (dependencies, account at some website etc.)
