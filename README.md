@@ -1,5 +1,5 @@
 # Name of your module
-This is third-party module for the inkycal project
+This is third-party module for the inkycal project for release 2.0.0
 
 First, add a **SCREENSHOT** (This is very important!)
 
@@ -25,27 +25,15 @@ wget https://raw.githubusercontent.com/aceisace/inkycal_template/master/mymodule
 ```python3
 # In python, type the following commands:
 from inkycal import Inkycal
-inkycal._add_module('/full/path/to/your/module.py', 'Classname_inside_module')
-# If everything went well, you should see a printed message without red lines
+inkycal.add_module('/full/path/to/your/module.py')
+# If everything went well, you should see a printed message without red lines.
 ```
 
-4) Add the following in your `settings.json` file, inside the `panels` section
-```
-		{
-			"location": "top/middle/bottom",
-			"type": "YourClassName",
-                        "height": Null,
-			"config": {
-				"some_option": "some_value",
-				"some_other_option": some_integer_value 
-			}
-		},
-```
 
 # How to remove this module
 ```python3
 # In python, run the following commands:
 from inkycal import Inkycal
-Inkycal._remove_module('Classname')
-# Where classname is the name of the Class inside file
+Inkycal.remove_module('filename.py') # where filename.py is the name of your third-party module in Inkycal/inkycal/modules
+# If everything went well, you'll see a printed message without red lines.
 ```
