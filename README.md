@@ -32,8 +32,11 @@ inkycal.add_module('/full/path/to/your/module.py')
 # Configuring this module
 Once the module is registered, navigate to `Inkycal/server` and run the flask-server with:
 `flask run --host=0.0.0.0`
+
 The web-UI should now be available at `http://raspberrypi.local:5000/`. If this does not work, you can manually use the IP address instead: `http://192.168.1.142:5000/`
-Copy the generated settings.json file to your raspberry Pi (VNC/ WinSCP). If you don't have access to the Raspberry Pi via VNC/ WinSCP, you can copy the settings.json file to the microSD card instead. After inkycal starts, it will use the new settings.json file.
+
+Copy the generated settings.json file to your raspberry Pi (VNC/ WinSCP). 
+If you don't have access to the Raspberry Pi via VNC/ WinSCP, you can copy the settings.json file to the microSD card instead. After inkycal starts, it will use the new settings.json file.
 
 # How to remove this module
 ```python3
