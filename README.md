@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/aceisace/inkycal_template/master/mymodule
 ```python3
 # In python, type the following commands:
 from inkycal import Inkycal
-inkycal.add_module('/full/path/to/your/module.py')
+Inkycal.add_module('/full/path/to/your/module.py')
 # If everything went well, you should see a printed message without red lines.
 ```
 
